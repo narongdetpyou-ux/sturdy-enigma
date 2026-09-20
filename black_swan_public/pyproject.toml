@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "black-swan-logic"
+version = "8.0.0"
+description = "Auditable statistical anomaly triage with bounded runtime"
+requires-python = ">=3.12"
+dependencies = []
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["black_swan_v7_engine"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
