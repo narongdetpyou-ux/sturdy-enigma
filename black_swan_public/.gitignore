@@ -1,0 +1,30 @@
+# Keep the public mirror source-only
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Do not publish project evidence/data from the private repository
+data/
+experiments/
+reports/
+archive/
+backups/
+incoming/
+outputs/
+results/
+*.log
+*.zip
+*.tar
+*.tar.gz
+
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
